@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-size: 0.38rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    .che {
+        color: red;
+        font-size: 0.39rem;
+        font-weight: bold;
+    }
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow-y: auto;
+    .xiche {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        dl {
+            background: #ccc;
+            margin-top: 0.2rem;
+        }
+        dl dt {
+            text-align: center;
+            i.icon {
+                font-size: 0.5rem;
+            }
+        }
+        dl dd {
+            text-align: center;
+        }
+    }
+    .baojia {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        dl {
+            border: solid 1px #ccc;
+            padding: 0.1rem;
+        }
+        dl dt {
+            text-align: center;
+            i.icon {
+                font-size: 0.5rem;
+            }
+        }
+        dl dd {
+            text-align: center;
+            font-size: 0.32rem;
+        }
+    }
+    .big {
+        width: 100%;
+        height: 1.5rem;
+        background: green;
+    }
+    .tuwen {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .zhounian {
+            width: 50%;
+            height: 2rem;
+            display: flex;
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+        display: flex;
+        flex-direction: column;
+        i.icon {
+            text-align: center;
+        }
+    }
+}
